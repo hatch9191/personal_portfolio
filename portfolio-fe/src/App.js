@@ -1,16 +1,35 @@
 import React from 'react'
-import axios from 'axios'
+import skills from './data/skills.json'
 
 function App() {
-  React.useEffect(() => {
-    const getData = async () => {
-      const res = await axios.get('/api/endpoint') // * <-- replace with your endpoint
-      console.log(res.data)
-    }
-    getData()
-  })
 
-  return <h1>Hello World</h1>
+
+
+  return (
+    <>
+      <h1>Frontend</h1>
+      {skills.frontend.map(skill => (
+        <>
+          {/* <h1>{skill.name}</h1> */}
+          <h1><i className={skill.deviconClass}></i></h1>
+        </>
+      ))}
+      <h1>Backend</h1>
+      {skills.backend.map(skill => (
+        <>
+          {/* <h1>{skill.name}</h1> */}
+          <h1><i className={skill.deviconClass}></i></h1>
+        </>
+      ))}
+      <h1>Other</h1>
+      {skills.other.map(skill => (
+        <>
+          {/* <h1>{skill.name}</h1> */}
+          <h1><i className={skill.deviconClass}></i></h1>
+        </>
+      ))}
+    </>
+  )
 }
 
 export default App
