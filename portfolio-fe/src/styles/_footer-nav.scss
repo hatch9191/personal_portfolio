@@ -1,0 +1,112 @@
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  margin: 10px 0;
+  div {
+    margin: 0 15px;
+    font-size: larger;
+    font-weight: 600;
+  }
+  .links:hover {
+    cursor: pointer;
+    font-size: x-large;
+  }
+  .about {
+    color: $light-pink;
+  }
+  .about:hover, .about:active {
+    color: $highlighted-pink;
+  }
+  .skills {
+    color: $light-blue;
+  }
+  .skills:hover, .skills:active {
+    color: $highlighted-blue;
+  }
+  .projects {
+    color: $light-green;
+  }
+  .projects:hover, .projects:active {
+    color: $highlighted-green;
+  }
+  .interests {
+    color: $light-yellow;
+  }
+  .interests:hover, .interests:active {
+    color: $highlighted-yellow;
+  }
+  .contact {
+    color: $light-orange;
+  }
+  .contact:hover, .contact:active {
+    color: $highlighted-orange;
+  }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  div {
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-size: 33px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  div:hover {
+    height: 55px;
+    width: 55px;
+    background-size: 38px;
+  }
+  .email {
+    background-color: $light-pink;
+    background-image: url('../images/email_inbox_letter_send_icon.png');
+  }
+  .email:hover {
+    background-color: $highlighted-pink;
+  }
+  .linkdin {
+    background-color: $light-blue;
+    background-image: url('../images/linkedin_network_social\ network_linkedin\ logo_icon.png');
+  }
+  .linkdin:hover {
+    background-color: $highlighted-blue;
+  }
+  .github {
+    background-color: $light-green;
+    background-image: url('../images/social_github_icon.png');
+  }
+  .github:hover {
+    background-color: $highlighted-green;
+  }
+  .strava {
+    background-color: $light-yellow;
+    background-image: url('../images/strava_icon.png');
+  }
+  .strava:hover {
+    background-color: $highlighted-yellow;
+  }
+  .scrolltop {
+    background-color: $light-orange;
+    background-image: url('../images/up_arrow_icon.png');
+  }
+  .scrolltop:hover {
+    background-color: $highlighted-orange;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .nav {
+    div {
+      font-size: large;
+      margin: 0 10px;
+    }
+    div:hover {
+      font-size: larger;
+    }
+  }
+}

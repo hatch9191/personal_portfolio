@@ -35,10 +35,6 @@
     {
       "name": "Bulma",
       "deviconClass": "devicon-bulma-plain"
-    },
-    {
-      "name": "Tailwind",
-      "deviconClass": "devicon-tailwindcss-original-wordmark"
     }
   ],
   "backend":[
