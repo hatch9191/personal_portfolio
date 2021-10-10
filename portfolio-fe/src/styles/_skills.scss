@@ -1,6 +1,62 @@
+.skills-container {
+  background-image: url('https://res.cloudinary.com/dn11uqgux/image/upload/v1633879011/project-setup-test/Untitled_design_2_whwjg4.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  .title {
+    text-decoration: underline;
+    margin-bottom: 25px;
+  }
+}
+
+.skills-text {
+  margin-left: 60px;
+  .subtitle {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+.frontend, .backend, .other {
+  padding: 10px;
+  margin-right: 60px;
+  border-radius: 10px;
+  max-width: 840px;
+}
+
+.frontend {
+  background-color: $light-pink;
+  margin-bottom: 5px;
+}
+
+.backend {
+  background-color: $light-blue;
+  margin-bottom: 5px;
+}
+
+.other {
+  background-color: $light-green;
+}
+
 .icons {
   display: flex;
-  h1 {
+  flex-wrap: wrap;
+  justify-content: center;
+  p {
     margin: 0 10px;
+    font-size: 100px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .icons {
+    p {
+      margin: 0 10px;
+      font-size: 70px;
+    }
+  }
+  .frontend, .backend, .other {
+    margin-right: 10px;
   }
 }

@@ -1,0 +1,32 @@
+.hero-container {
+  background-image: url('https://res.cloudinary.com/dn11uqgux/image/upload/v1633875888/project-setup-test/Untitled_design_aid4gp.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // padding-left: 60px;
+}
+
+@media only screen and (max-width: 645px) {
+  .hero {
+    flex-direction: column;
+    .profile-image {
+      margin-top: 30px;
+    }
+  }
+}
+
+.profile-image {
+  img {
+    border-radius: 50%;
+    height: 225px;
+    width: auto;
+    margin-left: 50px;
+    filter: grayscale(100%);
+  }
+}

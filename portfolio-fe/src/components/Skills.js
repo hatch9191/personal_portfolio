@@ -3,36 +3,46 @@ import skills from '../data/skills.json'
 export default function Skills() {
 
   return (
-    <div className="container">
-      <h1>Frontend</h1>
-      <div className="icons">
-        {skills.frontend.map(skill => (
-          <>
-            {skill.deviconClass && (
-              <h1><i className={skill.deviconClass}></i></h1>
-            )}
-          </>
-        ))}
-      </div>
-      <h1>Backend</h1>
-      <div className="icons">
-        {skills.backend.map(skill => (
-          <>
-            {skill.deviconClass && (
-              <h1><i className={skill.deviconClass}></i></h1>
-            )}
-          </>
-        ))}
-      </div>
-      <h1>Other</h1>
-      <div className="icons">
-        {skills.other.map(skill => (
-          <>
-            {skill.deviconClass && (
-              <h1><i className={skill.deviconClass}></i></h1>
-            )}
-          </>
-        ))}
+    <div className="container skills-container">
+      <div className="skills-text">
+        <p className="title">Skills</p>
+        <div className="frontend">
+          <p className="subtitle">Frontend</p>
+          <div className="icons">
+            {skills.frontend.map(skill => (
+              <>
+                {skill.deviconClass && (
+                  <p><i className={skill.deviconClass}></i></p>
+                )}
+              </>
+            ))}
+          </div>
+        </div>
+        <div className="backend">
+          <p className="subtitle">Backend</p>
+          <div className="icons">
+
+            {skills.backend.map(skill => (
+              <>
+                {skill.deviconClass && (
+                  <p><i className={skill.deviconClass}></i></p>
+                )}
+              </>
+            ))}
+          </div>
+        </div>
+        <div className="other">
+          <p className="subtitle">Other</p>
+          <div className="icons">
+            {skills.other.map(skill => (
+              <>
+                {skill.deviconClass && (
+                  <p><i className={skill.deviconClass}></i></p>
+                )}
+              </>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   )

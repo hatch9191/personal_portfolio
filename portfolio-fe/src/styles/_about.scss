@@ -1,0 +1,18 @@
+.about-container {
+  background-image: url('https://res.cloudinary.com/dn11uqgux/image/upload/v1633878843/project-setup-test/Untitled_design_1_cjzm1b.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-text {
+  margin: 0 60px;
+  max-width: 840px;
+  p {
+    margin: 25px 0;
+    line-height: 150%;
+  }
+  .title {
+    text-decoration: underline;
+  }
+}

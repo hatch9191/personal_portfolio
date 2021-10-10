@@ -4,43 +4,53 @@
   right: 0;
   display: flex;
   margin: 10px 0;
+  z-index: 2;
+  // background-color: rgba(255, 255, 255, 0.5);
+  // border-radius: 10px;
   div {
     margin: 0 15px;
+    
+  }
+  .links {
     font-size: larger;
     font-weight: 600;
+    transition: font-size 1s ease;
   }
   .links:hover {
     cursor: pointer;
+  }
+
+  .links:hover, .active {
     font-size: x-large;
   }
   .about {
     color: $light-pink;
   }
-  .about:hover, .about:active {
+  .about:hover, .about-active {
     color: $highlighted-pink;
   }
   .skills {
     color: $light-blue;
   }
-  .skills:hover, .skills:active {
+  .skills:hover, .skills-active {
     color: $highlighted-blue;
   }
   .projects {
     color: $light-green;
   }
-  .projects:hover, .projects:active {
+  .projects:hover, .projects-active {
     color: $highlighted-green;
   }
   .interests {
     color: $light-yellow;
   }
-  .interests:hover, .interests:active {
+  .interests:hover, .interests-active {
     color: $highlighted-yellow;
   }
   .contact {
     color: $light-orange;
   }
-  .contact:hover, .contact:active {
+  .contact:hover, .contact-active {
     color: $highlighted-orange;
   }
 }
@@ -56,6 +66,7 @@
     background-size: 33px;
     background-repeat: no-repeat;
     cursor: pointer;
+    transition: height 1s, width 1s, background-size 1s;
   }
   div:hover {
     height: 55px;
@@ -101,11 +112,10 @@
 
 @media only screen and (max-width: 475px) {
   .nav {
-    div {
+    .links {
       font-size: large;
-      margin: 0 10px;
     }
-    div:hover {
+    .links:hover, .active {
       font-size: larger;
     }
   }
