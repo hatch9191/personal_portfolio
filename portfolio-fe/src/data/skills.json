@@ -1,79 +1,79 @@
 {
   "frontend": [
     {
-      "name": "JavaScript",
+      "name": "javascript",
       "deviconClass": "devicon-javascript-plain"
     },
     {
-      "name": "React",
+      "name": "react",
       "deviconClass": "devicon-react-original-wordmark"
     },
     {
-      "name": "HTML",
+      "name": "html",
       "deviconClass": "devicon-html5-plain-wordmark"
     },
     {
-      "name": "CSS",
+      "name": "css",
       "deviconClass": "devicon-css3-plain-wordmark"
     },
     {
-      "name": "SASS",
+      "name": "sass",
       "deviconClass": "devicon-sass-original"
     },
     {
-      "name": "Axios",
+      "name": "axios",
       "deviconClass": ""
     },
     {
-      "name": "JSON",
+      "name": "json",
       "deviconClass": ""
     },
     {
-      "name": "Bootstrap",
+      "name": "bootstrap",
       "deviconClass": "devicon-bootstrap-plain-wordmark"
     },
     {
-      "name": "Bulma",
+      "name": "bulma",
       "deviconClass": "devicon-bulma-plain"
     }
   ],
   "backend":[
     {
-      "name": "Python",
+      "name": "python",
       "deviconClass": "devicon-python-plain-wordmark"
     },
     {
-      "name": "Django",
+      "name": "django",
       "deviconClass": "devicon-django-plain"
     },
     {
-      "name": "PostgreSQL",
+      "name": "postgreSQL",
       "deviconClass": "devicon-postgresql-plain-wordmark"
     },
     {
-      "name": "Node.js",
+      "name": "node.js",
       "deviconClass": "devicon-nodejs-plain-wordmark"
     },
     {
-      "name": "MongoDB",
+      "name": "mongoDB",
       "deviconClass": "devicon-mongodb-plain-wordmark"
     },
     {
-      "name": "Mongoose",
+      "name": "mongoose",
       "deviconClass": ""
     },
     {
-      "name": "Express",
+      "name": "express",
       "deviconClass": "devicon-express-original-wordmark"
     }
   ],
   "other": [
     {
-      "name": "Git",
+      "name": "git",
       "deviconClass": "devicon-git-plain-wordmark"
     },
     {
-      "name": "GitHub",
+      "name": "gitHub",
       "deviconClass": "devicon-github-original-wordmark"
     },
     {
@@ -81,15 +81,15 @@
       "deviconClass": "devicon-npm-original-wordmark"
     },
     {
-      "name": "Pipenv",
+      "name": "pipenv",
       "deviconClass": ""
     },
     {
-      "name": "Heroku",
+      "name": "heroku",
       "deviconClass": "devicon-heroku-plain-wordmark"
     },
     {
-      "name": "Netlify",
+      "name": "netlify",
       "deviconClass": ""
     }
   ]

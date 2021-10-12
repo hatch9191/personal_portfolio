@@ -29,6 +29,19 @@
   margin-bottom: 10px;
   max-width: 840px;
   box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  .devicon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    .subtitle {
+      margin: 0 5px;
+      font-size: 50px;
+      transition: font-size 1s ease;
+    }
+    // .subtitle:hover {
+    //   font-size: 60px;
+    // }
+  }
 }
 
 .project-1 {

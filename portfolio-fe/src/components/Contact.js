@@ -1,32 +1,37 @@
+import Fade from 'react-reveal/Fade'
+
 export default function Contact() {
   return (
     <div className="container contacts-container">
       
       <div className="contact-text">
         <p className="title">Contact Me</p>
-        <a
-          href="mailto:harry.evans9191.com"
-          subject="I was looking at your Portfolio...">
-          <div className="email" >
-            <img alt="Email Me" src="https://res.cloudinary.com/dn11uqgux/image/upload/v1634006167/project-setup-test/email_inbox_letter_send_icon_rctils.png" />
-            <p className="subtitle">harry.evans9191@gmail.com</p>
-          </div>
-        
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/in/harryevans9191/" rel="noreferrer">
-          <div className="linkdin">
-            <img alt="LinkedIn" src="https://res.cloudinary.com/dn11uqgux/image/upload/v1634006167/project-setup-test/linkedin_network_social_network_linkedin_logo_icon_izevbl.png" />
-            <p className="subtitle">linkedin.com/in/harryevans9191/</p>
-          </div>
-        
-        </a>
-        <a target="_blank" href="https://github.com/hatch9191" rel="noreferrer">
-          <div className="github">
-            <img alt="GitHub" src="https://res.cloudinary.com/dn11uqgux/image/upload/v1634006167/project-setup-test/social_github_icon_kiz1ng.png" />
-            <p className="subtitle">github.com/hatch9191</p>
-          </div>
-        
-        </a>
+        <Fade duration={2000} >
+          <a
+            href="mailto:harry.evans9191.com"
+            subject="I was looking at your Portfolio...">
+            <div className="email" >
+              <img alt="Email Me" src="https://res.cloudinary.com/dn11uqgux/image/upload/v1634006167/project-setup-test/email_inbox_letter_send_icon_rctils.png" />
+              <p className="subtitle">harry.evans9191@gmail.com</p>
+            </div>
+          </a>
+        </Fade>
+        <Fade duration={2000} delay={300} >
+          <a target="_blank" href="https://www.linkedin.com/in/harryevans9191/" rel="noreferrer">
+            <div className="linkdin">
+              <img alt="LinkedIn" src="https://res.cloudinary.com/dn11uqgux/image/upload/v1634006167/project-setup-test/linkedin_network_social_network_linkedin_logo_icon_izevbl.png" />
+              <p className="subtitle">linkedin.com/in/harryevans9191/</p>
+            </div>
+          </a>
+        </Fade>
+        <Fade duration={2000} delay={600} >
+          <a target="_blank" href="https://github.com/hatch9191" rel="noreferrer">
+            <div className="github">
+              <img alt="GitHub" src="https://res.cloudinary.com/dn11uqgux/image/upload/v1634006167/project-setup-test/social_github_icon_kiz1ng.png" />
+              <p className="subtitle">github.com/hatch9191</p>
+            </div>
+          </a>
+        </Fade>
       </div>
     </div>
   )
