@@ -1,9 +1,10 @@
 .skills-container {
-  background-image: url('https://res.cloudinary.com/dn11uqgux/image/upload/v1633879011/project-setup-test/Untitled_design_2_whwjg4.png');
+  background-image: url('https://res.cloudinary.com/dn11uqgux/image/upload/v1633991328/project-setup-test/Untitled_design_12_m7zwaj.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   .title {
+    margin-top: 55px;
     text-decoration: underline;
     margin-bottom: 25px;
   }
@@ -23,16 +24,17 @@
   margin-right: 60px;
   border-radius: 10px;
   max-width: 840px;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
 }
 
 .frontend {
   background-color: $light-pink;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .backend {
   background-color: $light-blue;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .other {

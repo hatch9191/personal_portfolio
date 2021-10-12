@@ -3,56 +3,69 @@
   top: 0;
   right: 0;
   display: flex;
+  justify-content: space-between;
   margin: 10px 0;
   z-index: 2;
-  // background-color: rgba(255, 255, 255, 0.5);
-  // border-radius: 10px;
-  div {
-    margin: 0 15px;
-    
-  }
-  .links {
-    font-size: larger;
-    font-weight: 600;
-    transition: font-size 1s ease;
-  }
-  .links:hover {
+  width: 100%;
+  background-color: white;
+  // border-radius: 25px;
+  box-shadow: rgba(255, 255, 255, 1) 0 0 14px 22px;
+  .logo {
+    margin-left: 50px;
     cursor: pointer;
+    img {
+      height: 30px;
+      // width: 55px;
+    }
   }
-
-  .links:hover, .active {
-    font-size: x-large;
+  .nav-text {
+    display: flex;
+    div {
+      margin: 0 15px;
+    }
+    .links {
+      font-size: larger;
+      font-weight: 600;
+      transition: font-size 1s ease;
+    }
+    .links:hover {
+      cursor: pointer;
+    }
+    .links:hover, .active {
+      font-size: x-large;
+    }
+    .about {
+      color: $light-pink;
+    }
+    .about:hover, .about-active {
+      color: $highlighted-pink;
+    }
+    .skills {
+      color: $light-blue;
+    }
+    .skills:hover, .skills-active {
+      color: $highlighted-blue;
+    }
+    .projects {
+      color: $light-green;
+    }
+    .projects:hover, .projects-active {
+      color: $highlighted-green;
+    }
+    .experience {
+      color: $light-yellow;
+    }
+    .experience:hover, .experience-active {
+      color: $highlighted-yellow;
+    }
+    .contact {
+      color: $light-orange;
+    }
+    .contact:hover, .contact-active {
+      color: $highlighted-orange;
+    }
   }
-  .about {
-    color: $light-pink;
-  }
-  .about:hover, .about-active {
-    color: $highlighted-pink;
-  }
-  .skills {
-    color: $light-blue;
-  }
-  .skills:hover, .skills-active {
-    color: $highlighted-blue;
-  }
-  .projects {
-    color: $light-green;
-  }
-  .projects:hover, .projects-active {
-    color: $highlighted-green;
-  }
-  .interests {
-    color: $light-yellow;
-  }
-  .interests:hover, .interests-active {
-    color: $highlighted-yellow;
-  }
-  .contact {
-    color: $light-orange;
-  }
-  .contact:hover, .contact-active {
-    color: $highlighted-orange;
-  }
+  
 }
 
 .footer {
@@ -67,6 +80,7 @@
     background-repeat: no-repeat;
     cursor: pointer;
     transition: height 1s, width 1s, background-size 1s;
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
   }
   div:hover {
     height: 55px;
@@ -75,48 +89,80 @@
   }
   .email {
     background-color: $light-pink;
-    background-image: url('../images/email_inbox_letter_send_icon.png');
+    background-image: url('https://res.cloudinary.com/dn11uqgux/image/upload/v1634006167/project-setup-test/email_inbox_letter_send_icon_rctils.png');
+    border-top-right-radius: 3px;
   }
   .email:hover {
     background-color: $highlighted-pink;
   }
   .linkdin {
     background-color: $light-blue;
-    background-image: url('../images/linkedin_network_social\ network_linkedin\ logo_icon.png');
+    background-image: url('https://res.cloudinary.com/dn11uqgux/image/upload/v1634006167/project-setup-test/linkedin_network_social_network_linkedin_logo_icon_izevbl.png');
   }
   .linkdin:hover {
     background-color: $highlighted-blue;
   }
   .github {
     background-color: $light-green;
-    background-image: url('../images/social_github_icon.png');
+    background-image: url('https://res.cloudinary.com/dn11uqgux/image/upload/v1634006167/project-setup-test/social_github_icon_kiz1ng.png');
   }
   .github:hover {
     background-color: $highlighted-green;
   }
   .strava {
     background-color: $light-yellow;
-    background-image: url('../images/strava_icon.png');
+    background-image: url('https://res.cloudinary.com/dn11uqgux/image/upload/v1634006167/project-setup-test/strava_icon_dxrvgs.png');
   }
   .strava:hover {
     background-color: $highlighted-yellow;
   }
   .scrolltop {
     background-color: $light-orange;
-    background-image: url('../images/up_arrow_icon.png');
+    background-image: url('https://res.cloudinary.com/dn11uqgux/image/upload/v1634006167/project-setup-test/up_arrow_icon_jkzoho.png');
   }
   .scrolltop:hover {
     background-color: $highlighted-orange;
   }
 }
 
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 620px) {
   .nav {
+    justify-content: center;
+    .logo {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .nav-text {    
+    div {
+    // margin: -10px;
+    font-size: medium;
+    }
     .links {
-      font-size: large;
+      font-size: 5px;
+      margin: -5px;
     }
-    .links:hover, .active {
-      font-size: larger;
+    // div:hover, .active {
+    //   font-size: medium;
+    // }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .nav-text {
+    div {
+      // margin: 0 5px;
+      font-size: small;
+      .links {
+        font-size: small;
+        margin: -10px;
+      }
+      .links:hover, .active {
+        font-size: 5px;
+      }
     }
+    
   }
 }

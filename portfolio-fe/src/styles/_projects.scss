@@ -1,10 +1,120 @@
 .projects-container {
-  background-image: url('https://res.cloudinary.com/dn11uqgux/image/upload/v1633879394/project-setup-test/Untitled_design_3_lbroro.png');
+  background-image: url('https://res.cloudinary.com/dn11uqgux/image/upload/a_90/v1633990026/project-setup-test/Untitled_design_11_jbfaym.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  // background-size: cover;
   .title {
+    margin-top: 55px;
     text-decoration: underline;
+    margin-bottom: 25px;
   }
 }
 
+.projects-text {
+  margin-left: 60px;
+  // max-width: 840px;
+  .subtitle {
+    font-size: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.project-card {
+  border-radius: 10px;
+  padding: 10px;
+  // padding: 5px 35px;
+  margin-right: 60px;
+  margin-bottom: 10px;
+  max-width: 840px;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+}
+
+.project-1 {
+  background-color: $light-pink;
+  
+}
+
+.project-2 {
+  background-color: $light-blue;
+}
+
+.project-3 {
+  background-color: $light-green;
+}
+
+.project-4 {
+  background-color: $light-yellow;
+}
+
+.project-content {
+  display: flex;
+  img {
+    height: 250px;
+    margin: 5px 10px;
+    border-radius: 3px;
+  }
+  div {
+    p {
+      line-height: 150%;
+      text-align: justify;
+      margin: 0 10px;
+    }
+    .links {
+      text-align: center;
+      margin: 10px;
+    }
+    a {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 500;
+      color: #000;
+    }
+    a:hover {
+      border-bottom: 2px black solid;
+    }
+  }
+}
+
+.right {
+  flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 845px) {
+  .project-card {
+    .subtitle {
+      text-align: center;
+    }
+  }
+
+  .project-content {
+    flex-direction: column;
+    align-items: center;
+    img {
+      height: auto;
+      width:75%;
+    }
+    .description {
+      margin: 10px 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .project-card {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .project-card {
+    span {
+      display: none;
+    }
+    a {
+      border-bottom: 2px black solid;
+      display: inline-block;
+    }
+  }
+}

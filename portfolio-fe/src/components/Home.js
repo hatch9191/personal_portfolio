@@ -4,8 +4,8 @@ import Hero from './Hero'
 import About from './About'
 import Skills from './Skills'
 import Projects from './Projects'
-import Interests from './Interests'
 import Contact from './Contact'
+import Experience from './Experience'
 
 
 export default function Home() {
@@ -24,8 +24,8 @@ export default function Home() {
       <Element name="projects">
         <Projects />
       </Element>
-      <Element name="interests">
-        <Interests />
+      <Element name="experience">
+        <Experience />
       </Element>
       <Element name="contact">
         <Contact />

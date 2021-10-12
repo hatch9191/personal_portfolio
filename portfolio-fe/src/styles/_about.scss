@@ -1,5 +1,5 @@
 .about-container {
-  background-image: url('https://res.cloudinary.com/dn11uqgux/image/upload/v1633878843/project-setup-test/Untitled_design_1_cjzm1b.png');
+  background-image: url('https://res.cloudinary.com/dn11uqgux/image/upload/v1633992059/project-setup-test/Untitled_design_14_hl1rvk.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -8,11 +8,28 @@
 .about-text {
   margin: 0 60px;
   max-width: 840px;
+  div {
+    padding: 5px 35px;
+    border-radius: 10px;
+    max-width: 840px;
+    background-color: $light-yellow;
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  }
   p {
     margin: 25px 0;
     line-height: 150%;
+    text-align: justify;
   }
   .title {
     text-decoration: underline;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .about-text {
+    margin-right: 10px;
+    // div {
+    //   padding: 5px;
+    // }
   }
 }

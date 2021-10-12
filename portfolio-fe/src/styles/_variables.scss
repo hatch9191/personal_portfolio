@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap');
 
 * {
-  font-family: 'Archivo', sans-serif;
-  // color: rgba(0,0,0,0.6);
+  font-family: 'Manrope', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -19,8 +18,7 @@ $light-orange: #f28f16aa;
 $highlighted-orange: #f28f16;
 
 .container {
-  height: 100vh;
-  // border-bottom: 1px black solid;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

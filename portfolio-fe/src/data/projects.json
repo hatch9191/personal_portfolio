@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "project": "GA Project One",
+    "name": "Face/Off - Space Invaders",
+    "duration": 8,
+    "description": "A solo-effort building a browser-based game styled off Space Invaders (but themed around the film Face/Off) using Vanilla JS, HTML and CSS.",
+    "site": "https://bit.ly/3h9TViV",
+    "readMe": "http://bit.ly/3mafSQN",
+    "screenshot": "https://res.cloudinary.com/dn11uqgux/image/upload/v1632834614/project-setup-test/face-off_ubivvw.png"
+  },
+  {
+    "id": 2,
+    "project": "GA Project Two",
+    "name": "Movie Quiz",
+    "duration": 2,
+    "description": "Pair-programming a small site consuming data from a public API (trivia.willfry.co.uk) to create a multi-page quiz game using React, SCSS and the Bulma CSS framework.",
+    "site": "https://bit.ly/3l23Mbx",
+    "readMe": "https://bit.ly/3ARCSKl",
+    "screenshot": "https://res.cloudinary.com/dn11uqgux/image/upload/v1633013022/project-setup-test/p2_whsmnx.png"
+  },
+  {
+    "id": 3,
+    "project": "GA Project Three",
+    "name": "AirStudio",
+    "duration": 8,
+    "description": "Working in a team of 3 using Git version control to build a MERN full-stack app with CRUD functionality for 2 models built with Mongoose. The concept for this project was based on being 'the Airbnb of recording-studios'. As a group we built out the backend together, whilst on the frontend I had responsibility for User Authorisation and Favouriting functionality amongst other things. Styling was done with a combination of the Bootstrap and the React-Bootstrap frameworks.",
+    "site": "https://bit.ly/3zP1Qtb",
+    "readMe": "http://bit.ly/3zLXxOz",
+    "screenshot": "https://res.cloudinary.com/dn11uqgux/image/upload/v1633175281/project-setup-test/airstudio_svpmat.png"
+  },
+  {
+    "id": 4,
+    "project": "GA Project Four",
+    "name": "Painterest",
+    "duration": 8,
+    "description": "Pair-programming to create a social-media oriented site based on Pinterest. A special concentration on following users and direct messaging features using Django and Postgres for the backend and React and Bootstrap for the frontend. The backend was done in tandem with my partner whilst my main frontend responsibilities were for Search and Posts functionality amongst other things.",
+    "site": "https://bit.ly/3me6jAg",
+    "readMe": "http://bit.ly/3ufqmBW",
+    "screenshot": "https://res.cloudinary.com/dn11uqgux/image/upload/v1633442247/project-setup-test/Screenshot_2021-10-05_at_14.55.32_aj7oq7.png"
+  }
+]
