@@ -15,7 +15,21 @@ export default function Skills() {
               {skills.frontend.map(skill => (
                 <>
                   {skill.deviconClass && (
-                    <p><i className={skill.deviconClass}></i></p>
+                    <p><i className={skill.deviconClass} title={skill.title}></i></p>
+                  )}
+                </>
+              ))}
+            </div>
+          </div>
+        </Fade>
+        <Fade duration={2000} delay={200} >
+          <div className="backend">
+            <p className="subtitle">Backend</p>
+            <div className="icons">
+              {skills.backend.map(skill => (
+                <>
+                  {skill.deviconClass && (
+                    <p><i className={skill.deviconClass} title={skill.title}></i></p>
                   )}
                 </>
               ))}
@@ -23,27 +37,13 @@ export default function Skills() {
           </div>
         </Fade>
         <Fade duration={2000} delay={300} >
-          <div className="backend">
-            <p className="subtitle">Backend</p>
-            <div className="icons">
-              {skills.backend.map(skill => (
-                <>
-                  {skill.deviconClass && (
-                    <p><i className={skill.deviconClass}></i></p>
-                  )}
-                </>
-              ))}
-            </div>
-          </div>
-        </Fade>
-        <Fade duration={2000} delay={600} >
           <div className="other">
             <p className="subtitle">Other</p>
             <div className="icons">
               {skills.other.map(skill => (
                 <>
                   {skill.deviconClass && (
-                    <p><i className={skill.deviconClass}></i></p>
+                    <p><i className={skill.deviconClass} title={skill.title}></i></p>
                   )}
                 </>
               ))}

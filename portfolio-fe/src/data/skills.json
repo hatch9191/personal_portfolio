@@ -2,94 +2,126 @@
   "frontend": [
     {
       "name": "javascript",
+      "title": "JavaScript",
       "deviconClass": "devicon-javascript-plain"
     },
     {
       "name": "react",
+      "title": "React",
       "deviconClass": "devicon-react-original-wordmark"
     },
     {
+      "name": "next",
+      "title": "Next.js",
+      "deviconClass": "devicon-nextjs-original-wordmark colored"
+    },
+    {
       "name": "html",
+      "title": "HTML5",
       "deviconClass": "devicon-html5-plain-wordmark"
     },
     {
       "name": "css",
+      "title": "CSS3",
       "deviconClass": "devicon-css3-plain-wordmark"
     },
     {
       "name": "sass",
+      "title": "SASS",
       "deviconClass": "devicon-sass-original"
     },
     {
       "name": "axios",
+      "title": "Axios",
       "deviconClass": ""
     },
     {
       "name": "json",
+      "title": "JSON",
       "deviconClass": ""
     },
     {
       "name": "bootstrap",
+      "title": "Bootstrap",
       "deviconClass": "devicon-bootstrap-plain-wordmark"
     },
     {
       "name": "bulma",
+      "title": "Bulma",
       "deviconClass": "devicon-bulma-plain"
     }
   ],
   "backend":[
     {
       "name": "python",
+      "title": "Python",
       "deviconClass": "devicon-python-plain-wordmark"
     },
     {
       "name": "django",
+      "title": "Django",
       "deviconClass": "devicon-django-plain"
     },
     {
       "name": "postgreSQL",
+      "title": "PostgreSQL",
       "deviconClass": "devicon-postgresql-plain-wordmark"
     },
     {
       "name": "node.js",
+      "title": "Node.js",
       "deviconClass": "devicon-nodejs-plain-wordmark"
     },
     {
       "name": "mongoDB",
+      "title": "MongoDB",
       "deviconClass": "devicon-mongodb-plain-wordmark"
     },
     {
       "name": "mongoose",
+      "title": "Mongoose",
       "deviconClass": ""
     },
     {
       "name": "express",
+      "title": "Express",
       "deviconClass": "devicon-express-original-wordmark"
     }
   ],
   "other": [
     {
       "name": "git",
+      "title": "Git",
       "deviconClass": "devicon-git-plain-wordmark"
     },
     {
       "name": "gitHub",
+      "title": "GitHub",
       "deviconClass": "devicon-github-original-wordmark"
     },
     {
+      "name": "mocha",
+      "title": "Mocha",
+      "deviconClass": "devicon-mocha-plain"
+    },
+    {
       "name": "npm",
+      "title": "npm",
       "deviconClass": "devicon-npm-original-wordmark"
     },
     {
       "name": "pipenv",
+      "title": "Pipenv",
       "deviconClass": ""
     },
     {
       "name": "heroku",
+      "title": "Heroku",
       "deviconClass": "devicon-heroku-plain-wordmark"
     },
     {
       "name": "netlify",
+      "title": "Netlify",
       "deviconClass": ""
     }
   ]

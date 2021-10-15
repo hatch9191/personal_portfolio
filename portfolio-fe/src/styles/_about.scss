@@ -3,22 +3,81 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  .title {
+    margin-bottom: 25px;
+    margin-top: 55px;
+  }
 }
 
 .about-text {
   margin: 0 60px;
-  max-width: 840px;
-  div {
+  max-width: 860px;
+  .bio, .learning, .interests {
     padding: 5px 35px;
+    margin-bottom: 10px;
     border-radius: 10px;
     max-width: 840px;
-    background-color: $light-yellow;
     box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+    .subtitle {
+      font-size: 25px;
+      text-align: center;
+    }
+  }
+  .bio {
+    background-color: $light-pink;
+  }
+  .learning {
+    background-color: $light-blue;
+    i {
+      font-size: 55px;
+    }
+    .mocha, .next {
+      display: flex;
+      align-items: center;
+    }
+    .next {
+      flex-direction: row-reverse;
+      i {
+        margin-left: 10px;
+      }
+    }
+    .mocha {
+      i {
+        margin-right: 10px;
+      }
+    }
+  }
+  .interests {
+    background-color: $light-green;
+    div {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      img {
+        height: 150px;
+        border-radius: 3px;
+        margin: 5px;
+      }
+    }
+    .link {
+      text-align: center;
+      margin: 5px 0 10px 0;
+    }
+    a {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 500;
+      color: #000;
+    }
+    a:hover {
+      border-bottom: 2px black solid;
+    }
   }
   p {
-    margin: 25px 0;
+    // margin: 25px 0;
     line-height: 150%;
     text-align: justify;
+    margin-bottom: 10px;
   }
   .title {
     text-decoration: underline;
@@ -28,8 +87,8 @@
 @media only screen and (max-width: 540px) {
   .about-text {
     margin-right: 10px;
-    // div {
-    //   padding: 5px;
-    // }
+    .title {
+      text-align: center;
+    }
   }
 }

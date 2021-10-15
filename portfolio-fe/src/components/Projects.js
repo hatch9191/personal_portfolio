@@ -12,16 +12,16 @@ export default function Projects() {
       <div className="projects-text">
         <p className="title">Projects</p>
         {projects.map(project => (
-          <Fade key={project.id} duration={2000} delay={i += 300} >
+          <Fade key={project.id} duration={2000} delay={i += 200} >
             <div  className={project.id % 2 === 0 ? `project-card project-${project.id}` : `project-card project-${project.id}`} >
               <p className="subtitle">{project.project} - {project.name}</p>
               <div className="devicon">
                 {project.devicons.map(icon => (
-                  <p key={n += 1} className={`subtitle ${icon.name}`}><i className={icon.deviconClass}></i></p>
+                  <p key={n += 1} className={`subtitle ${icon.name}`}><i className={icon.deviconClass} title={icon.title}></i></p>
                 ))}
               </div>
               <div className={project.id % 2 === 0 ? 'project-content right' : 'project-content left'}>
-                <img src={project.screenshot} alt={project.name} />
+                <img src={project.screenshot} alt={project.name} title={project.name}/>
                 <div>
                   <p className="description">{project.description}</p>
                   <p className="links">

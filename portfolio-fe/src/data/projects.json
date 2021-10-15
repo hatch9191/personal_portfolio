@@ -11,14 +11,17 @@
     "devicons": [
       {
         "name": "javascript",
+        "title": "JavaScript",
         "deviconClass": "devicon-javascript-plain"
       },
       {
         "name": "html",
+        "title": "HTML5",
         "deviconClass": "devicon-html5-plain-wordmark" 
       },
       {
         "name": "css",
+        "title": "CSS3",
         "deviconClass": "devicon-css3-plain-wordmark"
       }
     ]
@@ -35,14 +38,17 @@
     "devicons": [
       {
         "name": "react",
+        "title": "React",
         "deviconClass": "devicon-react-original-wordmark"
       },
       {
         "name": "bulma",
+        "title": "Bulma",
         "deviconClass": "devicon-bulma-plain" 
       },
       {
         "name": "sass",
+        "title": "SASS",
         "deviconClass": "devicon-sass-original"
       }
     ]
@@ -59,26 +65,32 @@
     "devicons": [
       {
         "name": "mongo",
+        "title": "MongoDB",
         "deviconClass": "devicon-mongodb-plain-wordmark"
       },
       {
         "name": "express",
+        "title": "Express",
         "deviconClass": "devicon-express-original-wordmark" 
       },
       {
         "name": "react",
+        "title": "React",
         "deviconClass": "devicon-react-original-wordmark"
       },
       {
         "name": "node",
+        "title": "Node.js",
         "deviconClass": "devicon-nodejs-plain-wordmark"
       },
       {
         "name": "bootstrap",
+        "title": "Bootstrap",
         "deviconClass": "devicon-bootstrap-plain-wordmark" 
       },
       {
         "name": "sass",
+        "title": "SASS",
         "deviconClass": "devicon-sass-original"
       }
     ]
@@ -95,26 +107,32 @@
     "devicons": [
       {
         "name": "python",
+        "title": "Python",
         "deviconClass": "devicon-python-plain-wordmark"
       },
       {
         "name": "django",
+        "title": "Django",
         "deviconClass": "devicon-django-plain" 
       },
       {
         "name": "postgres",
+        "title": "PostgreSQL",
         "deviconClass": "devicon-postgresql-plain-wordmark"
       },
       {
         "name": "react",
+        "title": "React",
         "deviconClass": "devicon-react-original-wordmark"
       },
       {
         "name": "bootstrap",
+        "title": "Bootstrap",
         "deviconClass": "devicon-bootstrap-plain-wordmark" 
       },
       {
         "name": "sass",
+        "title": "SASS",
         "deviconClass": "devicon-sass-original"
       }
     ]
