@@ -17,12 +17,12 @@ export default function About() {
           <div className="learning">
             <p className="subtitle">What I&apos;m Learning Now</p>
             <div className="mocha">
-              <p><i className="devicon-mocha-plain" title="Mocha"></i></p>
-              <p>Through reading and talking to other industry professionals I have been made aware of how important and helpful Test Driven Development (TDD) can be in our everyday work. Therefore I have started working through the <strong>TDD with Mocha</strong> course on Codecademy.</p>
+              <p><i className="devicon-jest-plain" title="Jest"></i></p>
+              <p>Through reading and talking to other industry professionals I have been made aware of how important and helpful Test Driven Development can be in our everyday work. Therefore I have recently completed the <strong>Learn Unit Testing with Mocha</strong> course on Codecademy. Keen to translate this knowledge into somthing I can use in React I have started the <strong>React Testing with Jest and Enzyme</strong> course by Bonnie Schulkin on Udemy.</p>
             </div>
             <div className="next">
               <p><i className="devicon-nextjs-original colored" title="Next.js"></i></p>
-              <p>It was recently recommended to me that I read up about the <strong>Next.js</strong> framework as it addresses a number of issues that I have noticed when working with React, in particluar SEO optimisation and faster initial page loading times. Bringing together the Front and Backend with this Full Stack framework is really satisfying and I am now doing the &apos;Mastering Next.js&apos; course by Lee Robinson at Vercel.</p>
+              <p>It was recently recommended to me that I read up about the <strong>Next.js</strong> framework as it addresses a number of issues that I have noticed when working with React, in particluar SEO optimisation and faster initial page loading times. Bringing together the Front and Backend with this Full Stack framework is really satisfying and I am now doing the <strong>Next.js & React</strong> course by Maximilian Schwarzmüller at Academind (also on Udemy).</p>
             </div>
           </div>
         </Fade>

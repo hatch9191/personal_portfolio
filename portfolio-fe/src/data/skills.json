@@ -105,6 +105,11 @@
       "deviconClass": "devicon-mocha-plain"
     },
     {
+      "name": "jest",
+      "title": "Jest",
+      "deviconClass": "devicon-jest-plain"
+    },
+    {
       "name": "npm",
       "title": "npm",
       "deviconClass": "devicon-npm-original-wordmark"
