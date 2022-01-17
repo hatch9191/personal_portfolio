@@ -5,7 +5,16 @@ export default function Experience() {
     <div className="container experience-container">
       <div className="experience-text">
         <p className="title">Experience</p>
-        <Fade duration={2000} >
+        <Fade duration={2000}>
+          <div className="feast-it">
+            <img src="https://res.cloudinary.com/dn11uqgux/image/upload/v1642417873/project-setup-test/feast-it_owler_20190814_023801_original_kduvzl.png" alt="feast -t" title="Feast It" />
+            <div>
+              <p className="subtitle">Full Stack Developer – Dec 2021 - onwards</p>
+              <p className="text">I am working as Full Stack Developer in an Agile dev setup in this fast-growing and diverse start-up. This role is primarily remote-based, with some office days whilst there is a high level of autonomy and freedom to work on project or technologies that interest you or you want to know more about.</p>
+            </div>
+          </div>
+        </Fade>
+        <Fade duration={2000} delay={200}>
           <div className="ga">
             <img src="https://res.cloudinary.com/dn11uqgux/image/upload/v1633999212/project-setup-test/ga_fvmvgx.png" alt="general assembly" title="General Assembly"/>
             <div>
@@ -14,7 +23,7 @@ export default function Experience() {
             </div>
           </div>
         </Fade>
-        <Fade duration={2000} delay={200} >
+        <Fade duration={2000} delay={400}>
           <div className="soho">
             <img src="https://res.cloudinary.com/dn11uqgux/image/upload/v1633999208/project-setup-test/soho_vqjgmv.jpg" alt="soho house" title="Soho House" />
             <div>
@@ -23,15 +32,7 @@ export default function Experience() {
             </div>
           </div>
         </Fade>
-        <Fade duration={2000} delay={400} >
-          <div className="soho-two">
-            <img src="https://res.cloudinary.com/dn11uqgux/image/upload/v1633999208/project-setup-test/soho_vqjgmv.jpg" alt="soho house" title="Soho House" />
-            <div>
-              <p className="subtitle">Coordinator, Receptionist & Concierge, Soho Farmhouse, Oxfordshire – Aug 2018 - Feb 2020</p>
-              <p className="text">Introduced high-profile guests to the Hotel, ensuring all their needs were met throughout their stay by being their main point of contact. I also had an exceptional knowledge of many pieces of software and systems, acting as a training mentor for new starters.</p>
-            </div>
-          </div>
-        </Fade>
+        
       </div>
     </div>
   )
