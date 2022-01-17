@@ -41,6 +41,11 @@
       "deviconClass": ""
     },
     {
+      "name": "jquery",
+      "title": "jQuery",
+      "deviconClass": "devicon-jquery-plain-wordmark"
+    },
+    {
       "name": "bootstrap",
       "title": "Bootstrap",
       "deviconClass": "devicon-bootstrap-plain-wordmark"
